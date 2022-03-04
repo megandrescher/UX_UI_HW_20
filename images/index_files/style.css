@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 72px;
+    text-align: center;
+    color: #202665;
+   }
+
+h2 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 24px;
+    text-align: left;
+    color: #202665;
+}
+
+h3 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 18px;
+    color: white;
+}
+
+h4 {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;  
+}
+
+h5 {
+    font-family: 'Open Sans';
+    font-size: 14px; 
+    color: #C4E5DF; 
+}
+
+h6 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 96px;
+    text-align: center;
+    color: white;    
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, #202665, #C4E5DF);
+  z-index: -1;
+}
+
+.navbar {
+display: grid;
+grid-template-columns: 10% 1fr 1fr 10%;
+min-height: 2vh;
+}
+
+.navbar-brand {
+  grid-column: 1;
+}
+
+.btn {
+  justify-self: end;
+}
+
+.jumbotron {
+    color: white;
+    background-image: url("../UX_UI_HW_19/images/heroImage.png");
+    background-color: #C4E5DF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+  }
+
+.display-4 {
+    color: white; 
+    text-align: left;
+}
+
+.jumbotronAll {
+    color: white;
+    background-image: url("../UX_UI_HW_19/images/forAllBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardVid {
+    background-color: #C4E5DF;  
+  }
+
+  .jumbotronBlue {
+    background-color: #202665; 
+  }
+
+  .jumbotronWhite {
+    background-color: white;    
+  }
+
+  .jumbotronMint {
+    background-color: #C4E5DF;    
+  }
+
+  .tile {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px; 
+}
+
+.footer {
+    background-color: #202665;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 30px;
+    height: 315px;
+    column-gap: 60px;
+}
+
+.footerLinks {
+    grid-area: footerLinks;
+    background-color: #202665;
+    color: #C4E5DF;
+    line-height: 50px;
+    height: 315px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.footerNewsletter {
+    grid-area: footerNewsletter;
+    background-color: #202665;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr, 1fr; 
+    vertical-align: middle;
+    height: 315px;
+    text-align: center;
+}
+
+.footerLocation {
+    grid-area: footerLocation;
+    background-color: #202665;
+    
+    display: grid;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr, 1fr;
+    grid-template-areas: 
+    "text map";
+    height: 315px;
+    margin-right: 20px;
+}
+
+.text {
+    grid-area: text;
+}
+
+.map {
+    grid-area: map; 
+    justify-items: center;
+    margin-left: 30px;
+}
+
+.footerContainer {
+    display: inline;
+}
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type="image"] {
+    width: 100%;
+    vertical-align: middle;
+  }
+  
+  /* Style the submit button */
+  input[type="image"] {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  input[type=text] {
+    width: 320px;
+    font-size: small;
+    padding: 14px;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #C4E5DF;
+    color: #202665;
+    display: inline-block;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-search {
+      align-self:flex-end;
+  }
+
+  .list-group-item {
+    background: #C4E5DF;
+    border: 0px; 
+  }
+
+  .list-group {
+    display: flex;
+    justify-content: center; 
+  }
+
+  .cardContainer {
+    display: flex;
+    justify-content: center; 
+  }
