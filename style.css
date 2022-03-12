@@ -62,13 +62,14 @@ h6 {
 
 .navbar {
 display: grid;
-grid-template-columns: 10% 1fr 1fr 10%;
+grid-template-columns: 20% 1fr 1fr 20%;
 position:relative;
 }
 
+
 .navbar-brand {
   grid-column: 1;
-  vertical-align: bottom;
+  justify-content: baseline;
   position:absolute; 
   bottom: -1;
   z-index: 3;
@@ -97,7 +98,7 @@ position:relative;
 
 .jumbotron {
     color: white;
-    background-image: url("../UX_UI_HW_19/images/heroImage.png");
+    background-image: url("../UX_UI_HW_20/images/heroImage.png");
     background-color: #C4E5DF;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,7 +119,7 @@ position:relative;
 
 .jumbotronAll {
     color: white;
-    background-image: url("../UX_UI_HW_19/images/forAllBackground.png");
+    background-image: url("../UX_UI_HW_20/images/forAllBackground.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,7 +212,7 @@ position:relative;
 }
 
 /*#submit-btn {
-background-image: url("../UX_UI_HW_19/images/clickedNewsletter.png");
+background-image: url("../UX_UI_HW_20/images/clickedNewsletter.png");
 }*/
 
 

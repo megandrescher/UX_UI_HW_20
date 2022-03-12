@@ -1,4 +1,4 @@
-$(".jumbotron").css({ height: $(window).height() + "px" });
+/*$(".jumbotron").css({ height: $(window).height() + "px" });
 
 $(window).on("resize", function() {
   $(".jumbotron").css({ height: $(window).height() + "px" });
@@ -8,7 +8,14 @@ $(".jumbotronAll").css({ height: $(window).height() + "px" });
 
 $(window).on("resize", function() {
   $("jumbotronAll").css({ height: $(window).height() + "px" });
-});
+});*/
+
+$(function() {
+  $('.bbutton').click(function(){
+    $(".bbutton").attr('src',"/UX_UI_HW_20/images/clickedNewsletter.png");
+    return false;
+  });
+ });
 
 
 /*const jumbotron = document.querySelector('.jumbotron');
@@ -37,9 +44,3 @@ function () {
  }
 );*/
 
-$(function() {
-  $('.bbutton').click(function(){
-    $(".bbutton").attr('src',"/UX_UI_HW_19/images/clickedNewsletter.png");
-    return false;
-  });
- });
